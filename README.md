@@ -1,6 +1,6 @@
 PIC16F876A UART Password Authentication System
 
-📌 Project Overview
+#Project Overview
 
 This project implements a simple password authentication system using the PIC16F876A microcontroller, a 16×2 LCD, and UART serial communication.
 
@@ -12,7 +12,7 @@ If the password is incorrect, the LCD displays ACCESS DENIED.
 
 The system uses UART to receive password characters from the Virtual Terminal. The LCD displays the result, while the program does not transmit the access result back to the terminal.
 
-🎯 Project Objectives
+#Project Objectives
 
 Interface a 16×2 LCD with the PIC16F876A.
 
@@ -24,7 +24,7 @@ Validate the entered password using conditional statements.
 
 Display authentication results on the LCD.
 
-🛠️ Hardware and Software Requirements
+#Hardware and Software Requirements
 
 Hardware / Proteus Components
 
@@ -50,7 +50,7 @@ XC8 C Compiler
 
 Proteus Design Suite
 
-🔌 Pin Connections
+#Pin Connections
 
 LCD Interface — 4-bit Mode
 
@@ -164,7 +164,7 @@ The LCD displays the authentication result.
 
 The system waits for two seconds and repeats the process.
 
-🔑 Password Validation
+#Password Validation
 
 The predefined password is:
 
@@ -190,7 +190,7 @@ ACCESS DENIED
 
 ACCESS DENIED
 
-💻 Important Embedded C Concepts Used
+#Important Embedded C Concepts Used
 
 GPIO configuration using TRIS and PORT registers
 
@@ -210,7 +210,7 @@ String termination using '\0'
 
 Bitwise operations and register configuration
 
-🧪 Simulation Procedure
+#Simulation Procedure
 
 Create the circuit in Proteus using the pin connections listed above.
 
